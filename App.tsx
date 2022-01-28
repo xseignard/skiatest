@@ -6,7 +6,6 @@ import {
   LinearGradient,
   vec,
   Path,
-  Fill,
   Skia,
   Shader,
   useTimestamp,
@@ -49,7 +48,7 @@ const App = () => {
               uniforms={() => ({progress: progress.value / 2000})}
             />
           </Paint>
-          <Fill />
+          <Path path="m93.087 133.353 39.027-58.26c3.52-5.255 11.717-2.764 11.717 3.562v39.289l18.287-5.2c5.767-1.64 10.42 4.838 7.026 9.78l-40.454 58.883c-3.56 5.181-11.676 2.662-11.676-3.624v-39.725l-16.785 4.992c-5.747 1.709-10.479-4.714-7.142-9.696z" />
         </Canvas>
       </View>
     </SafeAreaView>
